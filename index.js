@@ -4,18 +4,18 @@ const figlet = require('figlet')
 lolcatjs.options.seed = Math.round(Math.random() * 1000);
 lolcatjs.options.colors = true;
 
-lolcatjs.fromString('[INFO] HI,I AM DUCK')
-lolcatjs.fromString('[SYSTEM] STARTING BOT...')
+lolcatjs.fromString('[INFO] hola, yo soy Tu sunao nako bot')
+lolcatjs.fromString('[SYSTEM] iniciando bot...')
 console.log('------------------------------------------------')
 let { spawn } = require('child_process')
 let path = require('path')
 const CFonts  = require('cfonts')
-CFonts.say('PATO V4', {
+CFonts.say('suna nako', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say('\'Bot pato v4\' By Mr Pato', {
+CFonts.say('\'Bot sunao nako \' By wixny', {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
