@@ -1,7 +1,7 @@
 #Wixny-Bot 
 Para instalarlo es 
 
-pkg update && pkg upgrade
+>pkg update && pkg upgrade
 > pkg install git -y
 > pkg install wget
 > pkg install ffmpeg
