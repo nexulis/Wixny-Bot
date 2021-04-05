@@ -1,26 +1,17 @@
-const lolcatjs = require('lolcatjs')
-const figlet = require('figlet')
-
-lolcatjs.options.seed = Math.round(Math.random() * 1000);
-lolcatjs.options.colors = true;
-
-lolcatjs.fromString('[INFO] hola, yo soy Tu sunao nako bot')
-lolcatjs.fromString('[SYSTEM] iniciando bot...')
-console.log('------------------------------------------------')
+console.log('Iniciando Bot...')
 let { spawn } = require('child_process')
 let path = require('path')
 const CFonts  = require('cfonts')
-CFonts.say('sunao nako', {
+CFonts.say('SUNAO NAKO BOT ', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say('\'Bot sunao nako \' By wixny', {
+CFonts.say('\'Bot para termux\' By Wixny ', {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-console.log('------------------------------------------------')
 
 function start() {
   let args = [path.join(__dirname, 'nzwa.js'), ...process.argv.slice(2)]
@@ -43,5 +34,3 @@ function start() {
 }
 
 start()
-console.log('------------------------------------------------')
-lolcatjs.fromString('[REB] Wixny')
