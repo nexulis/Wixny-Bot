@@ -9,7 +9,7 @@ Para instalarlo es
 
 > pkg install ffmpeg
 
-> git clon https://github.com/nexulis/Wixny-Bot
+> git clone https://github.com/nexulis/Wixny-Bot
 
 > cd Wixny-Bot
 
