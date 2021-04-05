@@ -10,7 +10,7 @@ console.log('------------------------------------------------')
 let { spawn } = require('child_process')
 let path = require('path')
 const CFonts  = require('cfonts')
-CFonts.say('suna nako', {
+CFonts.say('sunao nako', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -44,4 +44,4 @@ function start() {
 
 start()
 console.log('------------------------------------------------')
-lolcatjs.fromString('[REB] PATO')
+lolcatjs.fromString('[REB] Wixny')
